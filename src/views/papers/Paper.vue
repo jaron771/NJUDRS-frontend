@@ -1,6 +1,6 @@
 <template>
   <el-container v-loading="loading">
-    <el-header height="normal" v-title :data-title="'OASIS paper'">
+    <el-header height="normal" v-title :data-title="'NJUDRS paper'">
       <Header
         @search="search"
         :breadcrumb="breadcrumb.message"

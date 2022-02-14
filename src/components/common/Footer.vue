@@ -2,7 +2,7 @@
   <div class="footer">
     <el-divider class="divide"></el-divider>
     <div class="content">
-      OASIS .Nanjing University.
+      NJUDRS .Nanjing University.
     </div>
     <div class="content">
       <a href="http://www.beian.miit.gov.cn/">

@@ -2,7 +2,7 @@
   <div
     style="width:100%; height:1000px"
     v-title
-    data-title="OASIS Author Relation"
+    data-title="NJUDRS Author Relation"
   >
     <authorRelationShip></authorRelationShip>
   </div>

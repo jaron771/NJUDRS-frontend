@@ -1,5 +1,5 @@
 <template>
-  <div class="containner" v-title data-title="OASIS Author Protrait">
+  <div class="containner" v-title data-title="NJUDRS Author Protrait">
     <!--        头部-->
     <el-backtop :right="60" :bottom="120">
       <div class="back-top">TOP</div>

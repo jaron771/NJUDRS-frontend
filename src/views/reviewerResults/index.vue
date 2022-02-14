@@ -1,5 +1,5 @@
 <template>
-  <div class="review-results" v-title data-title="OASIS Reviewer Results">
+  <div class="review-results" v-title data-title="NJUDRS Reviewer Results">
     <!--        <el-backtop :right="60" :bottom="120"-->
     <!--        ><div class="back-top">TOP</div></el-backtop-->
     <!--        >-->

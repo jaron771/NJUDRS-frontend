@@ -17,7 +17,7 @@
     <!--    :list-value="['Title', 'Author', 'Institution', 'Conference', 'Keywords']"-->
     <div class="breadcrumb">
       <el-breadcrumb separator-class="el-icon-arrow-right">
-        <el-breadcrumb-item to="/">OASIS</el-breadcrumb-item>
+        <el-breadcrumb-item to="/">NJUDRS</el-breadcrumb-item>
         <el-breadcrumb-item v-for="i in breadcrumb" :key="i">
           {{ i }}
         </el-breadcrumb-item>

@@ -3,11 +3,11 @@
     <el-row :gutter="20">
       <el-col :span="6">
         <a href="/">
-          <!--          <span class="shkb-logo" :style="{ color: mainColor }">O.A.S.I.S</span>-->
-          <!--          <span class="shkb-logo-reflect" :style="{ color: reflectColor }"-->
-          <!--            >O.A.S.I.S</span-->
-          <!--          >-->
-          <img src="@/assets/img/logo.png" />
+          <span class="shkb-logo" :style="{ color: mainColor }">NJUDRS</span>
+          <!--                    <span class="shkb-logo-reflect" :style="{ color: reflectColor }"-->
+          <!--                      >O.A.S.I.S</span-->
+          <!--                    >-->
+          <!--          <img src="@/assets/img/logo.png" />-->
         </a>
       </el-col>
     </el-row>

@@ -1,5 +1,5 @@
 <template>
-  <div class="search-results" v-title data-title="OASIS Search Results">
+  <div class="search-results" v-title data-title="NJUDRS Search Results">
     <el-backtop :right="60" :bottom="120">
       <div class="back-top">TOP</div>
     </el-backtop>

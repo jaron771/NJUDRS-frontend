@@ -1,5 +1,5 @@
 <template>
-  <el-container v-title data-title="OASIS">
+  <el-container v-title data-title="NJUDRS">
     <el-header height="100%">
       <!--      轮播图-->
       <div class="title">
@@ -215,11 +215,7 @@ export default {
   },
   data() {
     return {
-      type: [
-        "O A S I S",
-        "Recommended Reviewer",
-        "Systematic Literature Review"
-      ],
+      type: ["NJUDRS", "Recommended Reviewer", "Systematic Literature Review"],
       curIndex: 0,
       top10Author: [
         {
