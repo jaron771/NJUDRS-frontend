@@ -77,6 +77,14 @@ import PaperCards from "../../components/content/PaperCards";
 //   searchKeyword,
 //   searchTitle
 // } from "@/network/search";
+// import {
+//   comsearch,
+//   searchAuthor,
+//   searchConference,
+//   searchInstitution,
+//   searchKeyword,
+//   searchTitle
+// } from "@/network/search";
 import {
   searchAuthor,
   searchInstitution,

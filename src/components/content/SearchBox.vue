@@ -90,6 +90,15 @@ export default {
       //   tmpInput += `${val}=&`;
       // });
       // this.mainInput = tmpInput.substr(0, tmpInput.length - 1);
+      // let tmpInput = "";
+      // this.list.forEach(val => {
+      //   tmpInput += `${val}=&`;
+      // });
+      // this.mainInput = tmpInput.substr(0, tmpInput.length - 1);      // let tmpInput = "";
+      // this.list.forEach(val => {
+      //   tmpInput += `${val}=&`;
+      // });
+      // this.mainInput = tmpInput.substr(0, tmpInput.length - 1);
     },
     search() {
       if (this.checkEmpty()) {
