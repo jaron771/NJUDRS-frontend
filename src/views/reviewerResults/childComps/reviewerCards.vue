@@ -39,6 +39,32 @@
       </li>
     </ul>
   </div>
+
+  <!--  </div>-->
+  <!--  <ul>-->
+  <!--    <li v-for="i in documents" :key="i.id" class="item shkb-card">-->
+  <!--      <a class="title" :href="'/author/' + i.id.toString() + '/' + i.db">{{-->
+  <!--          i.name-->
+  <!--        }}</a>-->
+  <!--      <div class="name">-->
+  <!--        <a v-for="institution in i.institutions" :key="institution.id">{{-->
+  <!--            institution-->
+  <!--          }}</a>-->
+  <!--      </div>-->
+  <!--      <div class="keywords">-->
+  <!--        <div>Keywords:</div>-->
+  <!--        <span v-if="i.keywords !== ''">-->
+  <!--            <a v-for="keyword in i.keywords" :key="keyword">-->
+  <!--              {{ keyword }}-->
+  <!--            </a>-->
+  <!--          </span>-->
+  <!--        <div v-else>-->
+  <!--          Empty here.-->
+  <!--        </div>-->
+  <!--      </div>-->
+  <!--    </li>-->
+  <!--  </ul>-->
+  <!--  </div>-->
 </template>
 
 <script>

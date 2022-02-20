@@ -69,29 +69,12 @@ import Header from "@/components/content/Header";
 import SearchResultLeftCard from "@/views/searchResults/childcomps/SearchResultLeftCard";
 import SearchResultRightCard from "@/views/searchResults/childcomps/SearchResultRightCard";
 import PaperCards from "../../components/content/PaperCards";
-// import {
-//   comsearch,
-//   searchAuthor,
-//   searchConference,
-//   searchInstitution,
-//   searchKeyword,
-//   searchTitle
-// } from "@/network/search";
-// import {
-//   comsearch,
-//   searchAuthor,
-//   searchConference,
-//   searchInstitution,
-//   searchKeyword,
-//   searchTitle
-// } from "@/network/search";
+
 import {
   searchAuthor,
   searchInstitution,
   slrCommend
 } from "../../network/search";
-import SearchResultsMiddleCards from "./childcomps/SearchResultsMiddleCards";
-// import { parseSearchParams } from "@/common/utils";
 
 export default {
   name: "SearchResults",
