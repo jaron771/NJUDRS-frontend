@@ -25,8 +25,6 @@
         </div>
       </div>
       <AuthorInstitutions />
-      <!--      <InstitutionSameAuthors />-->
-      <!--      <DocumentListWithPage />-->
       <DocumentListWithPage />
       <DocumentListWithPage :isRef="true" />
     </div>

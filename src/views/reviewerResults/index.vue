@@ -1,8 +1,5 @@
 <template>
   <div class="review-results" v-title data-title="NJUDRS Reviewer Results">
-    <!--        <el-backtop :right="60" :bottom="120"-->
-    <!--        ><div class="back-top">TOP</div></el-backtop-->
-    <!--        >-->
     <Header @search="search" :breadcrumb="breadcrumb"></Header>
     <reviewer-cards :documents="content" @Change="Change"></reviewer-cards>
     <footer>
