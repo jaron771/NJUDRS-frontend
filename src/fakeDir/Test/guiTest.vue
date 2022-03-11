@@ -21,38 +21,7 @@
       ref="Table"
       header-cell-class-name="table-header"
     >
-<!--      <el-table-column-->
-<!--        type="index"-->
-<!--        width="50"-->
-<!--        align="center"-->
-<!--        label="序号"-->
-<!--      ></el-table-column>-->
-<!--      <el-table-column-->
-<!--        prop="name"-->
-<!--        label="用例名称"-->
-<!--        align="center"-->
-<!--      ></el-table-column>-->
-<!--      <el-table-column-->
-<!--        prop="service"-->
-<!--        label="资源对象"-->
-<!--        align="center"-->
-<!--      ></el-table-column>-->
-<!--      <el-table-column-->
-<!--        prop="description"-->
-<!--        label="用例简介"-->
-<!--        align="center"-->
-<!--      ></el-table-column>-->
-<!--      <el-table-column-->
-<!--        prop="file"-->
-<!--        label="脚本文件"-->
-<!--        align="center"-->
-<!--      ></el-table-column>-->
-<!--      <el-table-column-->
-<!--        prop="checkpoints"-->
-<!--        label="检查点数量"-->
-<!--        align="center"-->
-<!--        width="100"-->
-      ></el-table-column>
+</el-table-column>
       <el-table-column label="测试状态" align="center" width="200">
         <template slot-scope="scope">
           <el-button type="danger" plain round v-if="scope.row['ran'] == 0"
